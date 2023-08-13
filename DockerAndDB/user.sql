@@ -1,0 +1,3 @@
+INSERT INTO nest.user (id, firstName, lastName, email, password, role, token) VALUES (1, 'roman', 'lopes', 'roro.lps03@gmail.com', 'dfgvhjk', 'admin', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImVtYWlsIjoicm9yby5scHMwM0BnbWFpbC5jb20iLCJpYXQiOjE2OTE4Mzg2NjUsImV4cCI6OTY5MTgzODY2NX0.oFdPEMk6tPasLbwYnyM73RnNMwxBSmEdtv35uVDYJ8g');
+INSERT INTO nest.user (id, firstName, lastName, email, password, role, token) VALUES (2, 'test', 'testo', 'test@gmail.com', 'nop', 'manager', null);
+INSERT INTO nest.user (id, firstName, lastName, email, password, role, token) VALUES (3, 'testing', 'tryit', 'tryit@gmail.com', 'testest', 'user', null);

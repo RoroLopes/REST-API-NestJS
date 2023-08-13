@@ -1,0 +1,242 @@
+{
+	"id": "ea13c09f-70f7-4928-9781-1d98c56291c0",
+	"name": "REST API NestJS",
+	"timestamp": "2023-08-13T10:59:08.230Z",
+	"collection_id": "28938457-8daeb4a5-ac39-4731-9dac-93f63cc98bbb",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-08-13T10:59:07.303Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "a36f9f08-07d7-45ed-bacc-f31c507e0195",
+			"name": "Get Users",
+			"url": "http://localhost:3000/api/users",
+			"time": 31,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				31
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9f409589-8bed-4bad-8597-869efcf67dbe",
+			"name": "Create User",
+			"url": "http://localhost:3000/api/users",
+			"time": 25,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				25
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "06cbfc29-c6b1-44df-8685-c37156d4e2c0",
+			"name": "Modify by user ID",
+			"url": "http://localhost:3000/api/users/1",
+			"time": 12,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				12
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d982970d-b69e-4412-912a-84c3c28d3058",
+			"name": "Get by user ID",
+			"url": "http://localhost:3000/api/users/1",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				9
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "8b369b72-8486-4341-bd35-1b2336d47a08",
+			"name": "GetGroups",
+			"url": "http://localhost:3000/api/groups",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				6
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "bfba0811-ab05-4823-b466-4195ac2f8349",
+			"name": "Get Group by id",
+			"url": "http://localhost:3000/api/groups/3",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				9
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d58dd7a1-b01b-4350-9a01-e9308b0684b9",
+			"name": "add user to group id",
+			"url": "http://localhost:3000/api/groups/3/users",
+			"time": 17,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				17
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "42d3bd93-b04b-40bc-9d69-eab39b8c6f40",
+			"name": "Create group",
+			"url": "http://localhost:3000/api/groups",
+			"time": 18,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				18
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "57423616-2693-446b-ab2c-b59361e3950e",
+			"name": "Delete by user ID",
+			"url": "http://localhost:3000/api/users/4",
+			"time": 8,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				8
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e3ab88b5-1e50-4b3d-96e1-9bfa737e822b",
+			"name": "Login",
+			"url": "http://localhost:3000/api/login",
+			"time": 8,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				8
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 143,
+	"collection": {
+		"requests": [
+			{
+				"id": "a36f9f08-07d7-45ed-bacc-f31c507e0195",
+				"method": "GET"
+			},
+			{
+				"id": "9f409589-8bed-4bad-8597-869efcf67dbe",
+				"method": "POST"
+			},
+			{
+				"id": "06cbfc29-c6b1-44df-8685-c37156d4e2c0",
+				"method": "PUT"
+			},
+			{
+				"id": "d982970d-b69e-4412-912a-84c3c28d3058",
+				"method": "GET"
+			},
+			{
+				"id": "8b369b72-8486-4341-bd35-1b2336d47a08",
+				"method": "GET"
+			},
+			{
+				"id": "bfba0811-ab05-4823-b466-4195ac2f8349",
+				"method": "GET"
+			},
+			{
+				"id": "d58dd7a1-b01b-4350-9a01-e9308b0684b9",
+				"method": "POST"
+			},
+			{
+				"id": "42d3bd93-b04b-40bc-9d69-eab39b8c6f40",
+				"method": "POST"
+			},
+			{
+				"id": "57423616-2693-446b-ab2c-b59361e3950e",
+				"method": "DELETE"
+			},
+			{
+				"id": "e3ab88b5-1e50-4b3d-96e1-9bfa737e822b",
+				"method": "POST"
+			}
+		]
+	}
+}
